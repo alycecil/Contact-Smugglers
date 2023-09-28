@@ -14,6 +14,7 @@ return PlaceObj('ModDef', {
 	'code', {
 		"Code/CraftOperationsRecipeDef.lua",
 		"Code/RecipeDef.lua",
+		"InventoryItem/crate_Microchip.lua",
 		"InventoryItem/crate_bereta92f.lua",
 		"InventoryItem/crate_peacemaker.lua",
 		"InventoryItem/crate_coltanaconda.lua",

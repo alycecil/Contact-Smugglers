@@ -5,6 +5,42 @@ PlaceObj('RecipeDef', {
 	MechanicalRoll = true,
 	Ingredients = {
 		PlaceObj('RecipeIngredient', {
+			'item', "crate_Microchip",
+			'amount', 1,
+		}),
+		PlaceObj('RecipeIngredient', {
+			'item', "Parts",
+			'amount', 1,
+		}),
+	},
+	ResultItems = {
+		PlaceObj('RecipeIngredient', {
+			'item', "Microchip",
+			'amount', 10,
+		}),
+		PlaceObj('RecipeIngredient', {
+			'item', "FineSteelPipe",
+			'amount', 10,
+		}),
+		PlaceObj('RecipeIngredient', {
+			'item', "OpticalLens",
+			'amount', 10,
+		}),
+		PlaceObj('RecipeIngredient', {
+			'item', "Parts",
+			'amount', 100,
+		}),
+	},
+	group = "Explosives",
+	id = "crate_Microchip_unbox",
+	save_in = "Common",
+})
+
+PlaceObj('RecipeDef', {
+	Difficulty = 3,
+	MechanicalRoll = true,
+	Ingredients = {
+		PlaceObj('RecipeIngredient', {
 			'item', "crate_bereta92f",
 			'amount', 1,
 		}),

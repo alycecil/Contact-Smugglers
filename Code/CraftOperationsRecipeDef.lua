@@ -291,6 +291,22 @@ PlaceObj('CraftOperationsRecipeDef', {
 		}),
 	},
 	ResultItem = PlaceObj('RecipeIngredient', {
+		'item', "crate_Microchip",
+		'amount', 1,
+	}),
+	group = "Explosives",
+	id = "crateMicrochip_purchase",
+})
+
+PlaceObj('CraftOperationsRecipeDef', {
+	CraftTime = 1,
+	Ingredients = {
+		PlaceObj('RecipeIngredient', {
+			'item', "Parts",
+			'amount', 10,
+		}),
+	},
+	ResultItem = PlaceObj('RecipeIngredient', {
 		'item', "crate_peacemaker",
 		'amount', 1,
 	}),
