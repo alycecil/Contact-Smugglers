@@ -884,7 +884,7 @@ PlaceObj('CraftOperationsRecipeDef', {
 	},
 	ResultItem = PlaceObj('RecipeIngredient', {
 		'item', "crate_Explosives",
-		'amount', 1,
+		'amount', 3,
 	}),
 	group = "Explosives",
 	id = "explosives_purchase",
@@ -900,7 +900,7 @@ PlaceObj('CraftOperationsRecipeDef', {
 	},
 	ResultItem = PlaceObj('RecipeIngredient', {
 		'item', "crate_RemoteDets",
-		'amount', 1,
+		'amount', 3,
 	}),
 	group = "Explosives",
 	id = "remotedets_purchase",
@@ -916,7 +916,7 @@ PlaceObj('CraftOperationsRecipeDef', {
 	},
 	ResultItem = PlaceObj('RecipeIngredient', {
 		'item', "crate_ProxyDets",
-		'amount', 1,
+		'amount', 3,
 	}),
 	group = "Explosives",
 	id = "proxydets_purchase",
@@ -932,7 +932,7 @@ PlaceObj('CraftOperationsRecipeDef', {
 	},
 	ResultItem = PlaceObj('RecipeIngredient', {
 		'item', "crate_TimeDets",
-		'amount', 1,
+		'amount', 3,
 	}),
 	group = "Explosives",
 	id = "timedets_purchase",
@@ -948,7 +948,7 @@ PlaceObj('CraftOperationsRecipeDef', {
 	},
 	ResultItem = PlaceObj('RecipeIngredient', {
 		'item', "crate_HEGrenade",
-		'amount', 1,
+		'amount', 3,
 	}),
 	group = "Explosives",
 	id = "pineapple_purchase",
@@ -964,7 +964,7 @@ PlaceObj('CraftOperationsRecipeDef', {
 	},
 	ResultItem = PlaceObj('RecipeIngredient', {
 		'item', "crate_FragGrenade",
-		'amount', 1,
+		'amount', 3,
 	}),
 	group = "Explosives",
 	id = "sticknade_purchase",

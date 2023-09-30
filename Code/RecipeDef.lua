@@ -525,7 +525,7 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "_40mmFlashbangGrenade",
-			'amount', 9,
+			'amount', 90,
 		}),
 	},
 	group = "Explosives",
@@ -549,7 +549,7 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "_40mmFragGrenade",
-			'amount', 6,
+			'amount', 60,
 		}),
 	},
 	group = "Explosives",
@@ -573,7 +573,7 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "Warhead_Frag",
-			'amount', 5,
+			'amount', 20,
 		}),
 	},
 	group = "Explosives",
@@ -597,7 +597,7 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "MortarShell_HE",
-			'amount', 10,
+			'amount', 20,
 		}),
 	},
 	group = "Explosives",
@@ -621,7 +621,7 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "MortarShell_Gas",
-			'amount', 10,
+			'amount', 90,
 		}),
 	},
 	group = "Explosives",
@@ -645,7 +645,7 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "MortarShell_Smoke",
-			'amount', 10,
+			'amount', 90,
 		}),
 	},
 	group = "Explosives",
@@ -1081,7 +1081,7 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "BlackPowder",
-			'amount', 5,
+			'amount', 90,
 		}),
 	},
 	group = "Explosives",
@@ -1105,7 +1105,7 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "BlackPowder",
-			'amount', 10,
+			'amount', 90,
 		}),
 	},
 	group = "Explosives",
@@ -1129,11 +1129,11 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "C4",
-			'amount', 2,
+			'amount', 20,
 		}),
 		PlaceObj('RecipeIngredient', {
 			'item', "TNT",
-			'amount', 3,
+			'amount', 30,
 		}),
 	},
 	group = "Explosives",
@@ -1157,11 +1157,11 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "Combination_Detonator_Time",
-			'amount', 3,
+			'amount', 30,
 		}),
 		PlaceObj('RecipeIngredient', {
 			'item', "SkillMag_Explosives",
-			'amount', 1,
+			'amount', 10,
 		}),
 	},
 	group = "Explosives",
@@ -1185,11 +1185,11 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "Combination_Detonator_Proximity",
-			'amount', 3,
+			'amount', 30,
 		}),
 		PlaceObj('RecipeIngredient', {
 			'item', "SkillMag_Explosives",
-			'amount', 1,
+			'amount', 10,
 		}),
 	},
 	group = "Explosives",
@@ -1213,11 +1213,11 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "Combination_Detonator_Remote",
-			'amount', 3,
+			'amount', 30,
 		}),
 		PlaceObj('RecipeIngredient', {
 			'item', "Detonator",
-			'amount', 1,
+			'amount', 5,
 		}),
 	},
 	group = "Explosives",
@@ -1241,7 +1241,7 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "FragGrenade",
-			'amount', 6,
+			'amount', 60,
 		}),
 	},
 	group = "Explosives",
@@ -1265,7 +1265,7 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "HE_Grenade",
-			'amount', 3,
+			'amount', 30,
 		}),
 	},
 	group = "Explosives",
@@ -1361,7 +1361,7 @@ PlaceObj('RecipeDef', {
 	ResultItems = {
 		PlaceObj('RecipeIngredient', {
 			'item', "NightVisionGoggles",
-			'amount', 1,
+			'amount', 5,
 		}),
 	},
 	group = "Explosives",
