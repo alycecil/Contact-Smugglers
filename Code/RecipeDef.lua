@@ -1217,7 +1217,7 @@ PlaceObj('RecipeDef', {
 		}),
 		PlaceObj('RecipeIngredient', {
 			'item', "Detonator",
-			'amount', 5,
+			'amount', 1,
 		}),
 	},
 	group = "Explosives",
@@ -1402,6 +1402,38 @@ PlaceObj('RecipeDef', {
 	MechanicalRoll = true,
 	Ingredients = {
 		PlaceObj('RecipeIngredient', {
+			'item', "crate_KevlarSet_1",
+			'amount', 1,
+		}),
+		PlaceObj('RecipeIngredient', {
+			'item', "Parts",
+			'amount', 1,
+		}),
+	},
+	ResultItems = {
+		PlaceObj('RecipeIngredient', {
+			'item', "Armo_Spec_Ops_Vest_1",
+			'amount', 1,
+		}),
+		PlaceObj('RecipeIngredient', {
+			'item', "Armor_Spec_Ops_Helmet_1",
+			'amount', 1,
+		}),
+		PlaceObj('RecipeIngredient', {
+			'item', "Armor_Spec_Ops_leggings_1",
+			'amount', 1,
+		}),
+	},
+	group = "Explosives",
+	id = "kevlarset_unbox",
+	save_in = "Common",
+})
+
+PlaceObj('RecipeDef', {
+	Difficulty = 3,
+	MechanicalRoll = true,
+	Ingredients = {
+		PlaceObj('RecipeIngredient', {
 			'item', "crate_HeavySet",
 			'amount', 1,
 		}),
@@ -1522,6 +1554,78 @@ PlaceObj('RecipeDef', {
 	},
 	group = "Explosives",
 	id = "556_unbox",
+	save_in = "Common",
+})
+
+PlaceObj('RecipeDef', {
+	Difficulty = 3,
+	MechanicalRoll = true,
+	Ingredients = {
+		PlaceObj('RecipeIngredient', {
+			'item', "crate_556_sabre",
+			'amount', 1,
+		}),
+		PlaceObj('RecipeIngredient', {
+			'item', "Parts",
+			'amount', 1,
+		}),
+	},
+	ResultItems = {
+		PlaceObj('RecipeIngredient', {
+			'item', "_556_Sabre",
+			'amount', 250,
+		}),
+	},
+	group = "Explosives",
+	id = "556_sabre_unbox",
+	save_in = "Common",
+})
+
+PlaceObj('RecipeDef', {
+	Difficulty = 3,
+	MechanicalRoll = true,
+	Ingredients = {
+		PlaceObj('RecipeIngredient', {
+			'item', "crate_556_p",
+			'amount', 1,
+		}),
+		PlaceObj('RecipeIngredient', {
+			'item', "Parts",
+			'amount', 1,
+		}),
+	},
+	ResultItems = {
+		PlaceObj('RecipeIngredient', {
+			'item', "_556_PlusP",
+			'amount', 250,
+		}),
+	},
+	group = "Explosives",
+	id = "556_plus_p_unbox",
+	save_in = "Common",
+})
+
+PlaceObj('RecipeDef', {
+	Difficulty = 3,
+	MechanicalRoll = true,
+	Ingredients = {
+		PlaceObj('RecipeIngredient', {
+			'item', "crate_556_phosphor",
+			'amount', 1,
+		}),
+		PlaceObj('RecipeIngredient', {
+			'item', "Parts",
+			'amount', 1,
+		}),
+	},
+	ResultItems = {
+		PlaceObj('RecipeIngredient', {
+			'item', "_556_Phosphor",
+			'amount', 250,
+		}),
+	},
+	group = "Explosives",
+	id = "556_phosphor_unbox",
 	save_in = "Common",
 })
 

@@ -1155,6 +1155,22 @@ PlaceObj('CraftOperationsRecipeDef', {
 		}),
 	},
 	ResultItem = PlaceObj('RecipeIngredient', {
+		'item', "crate_KevlarSet_1",
+		'amount', 1,
+	}),
+	group = "Explosives",
+	id = "kevlarset_purchase",
+})
+
+PlaceObj('CraftOperationsRecipeDef', {
+	CraftTime = 1,
+	Ingredients = {
+		PlaceObj('RecipeIngredient', {
+			'item', "Parts",
+			'amount', 150,
+		}),
+	},
+	ResultItem = PlaceObj('RecipeIngredient', {
 		'item', "crate_HeavySet",
 		'amount', 1,
 	}),
@@ -1225,6 +1241,57 @@ PlaceObj('CraftOperationsRecipeDef', {
 	group = "Explosives",
 	id = "556_purchase",
 })
+
+PlaceObj('CraftOperationsRecipeDef', {
+	CraftTime = 1,
+	Ingredients = {
+		PlaceObj('RecipeIngredient', {
+			'item', "Parts",
+			'amount', 20,
+		}),
+	},
+	ResultItem = PlaceObj('RecipeIngredient', {
+		'item', "crate_556_phosphor",
+		'amount', 1,
+	}),
+	group = "Explosives",
+	id = "crate_556_phosphor_purchase",
+})
+
+
+PlaceObj('CraftOperationsRecipeDef', {
+	CraftTime = 1,
+	Ingredients = {
+		PlaceObj('RecipeIngredient', {
+			'item', "Parts",
+			'amount', 20,
+		}),
+	},
+	ResultItem = PlaceObj('RecipeIngredient', {
+		'item', "crate_556_p",
+		'amount', 1,
+	}),
+	group = "Explosives",
+	id = "crate_556_p_purchase",
+})
+
+
+PlaceObj('CraftOperationsRecipeDef', {
+	CraftTime = 1,
+	Ingredients = {
+		PlaceObj('RecipeIngredient', {
+			'item', "Parts",
+			'amount', 20,
+		}),
+	},
+	ResultItem = PlaceObj('RecipeIngredient', {
+		'item', "crate_556_sabre",
+		'amount', 1,
+	}),
+	group = "Explosives",
+	id = "crate_556_sabre_purchase",
+})
+
 
 PlaceObj('CraftOperationsRecipeDef', {
 	CraftTime = 1,
