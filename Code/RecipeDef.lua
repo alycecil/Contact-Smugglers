@@ -1695,6 +1695,10 @@ PlaceObj('RecipeDef', {
 			'item', "_9mm_Basic",
 			'amount', 200,
 		}),
+		PlaceObj('RecipeIngredient', {
+			'item', "_9mm_Sabre",
+			'amount', 200,
+		}),
 	},
 	group = "Explosives",
 	id = "9mm_crate_unbox",

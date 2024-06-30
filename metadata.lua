@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "I_van",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 154,
+	'version', 156,
 	'lua_revision', 233360,
 	'saved_with_revision', 340446,
 	'code', {
@@ -89,10 +89,11 @@ return PlaceObj('ModDef', {
 		"InventoryItem/Armor_Spec_Ops_leggings_1.lua",
 		"InventoryItem/Armor_Spec_Ops_Helmet_1.lua",
 		"InventoryItem/_556_Sabre.lua",
+		"InventoryItem/_9mm_Sabre.lua",
 		"InventoryItem/_556_PlusP.lua",
 		"InventoryItem/_556_Phosphor.lua",
 	},
-	'saved', 1696103413,
-	'code_hash', 6643143809225782623,
+	'saved', 1697062623,
+	'code_hash', -5456348357083223315,
 	'steam_id', "3011061964",
 })
